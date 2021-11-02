@@ -11,26 +11,27 @@
         <div>
             <label for="namn">
                 Namn: <br>
-                <input type="text" name="namn" id="namn" placeholder="Ange ditt namn" required>
+                <input type="text" name="namn" id="namn" placeholder="Ange ditt namn" required>*
             </label>
+            
         </div>
         <br>
         <div>
             <label for="epost">
                 Epost: <br>
-                <input type="email" name="epost" id="epost" placeholder="Ange din epostadress" required>
+                <input type="email" name="epost" id="epost" placeholder="Ange din epostadress" required>*
             </label>
         </div>
         <br>
         <div>
             <label for="telefon">
                 Telefonnummer: <br>
-                <input type="text" name="telefon" id="telefon" placeholder="Ange ditt telefonnummer">
+                <input type="tel" name="telefon" id="telefon" placeholder="Ange ditt telefonnummer">
             </label>
         </div>
         <br>
         <div>
-            <label for="meddelande">
+            <label>
                 Meddelande: <br>
                 <textarea name="meddelande" id="meddelande" ></textarea>
             </label>
@@ -38,14 +39,13 @@
         <br>
         <div>
             <input type="checkbox" value="gdpr" required>
-            Jag godkänner att mina uppgifter lagras.
+            Jag godkänner att mina uppgifter sparas.
         </div>
         <br>
         <input type="submit" value="Skicka">
     </form>
-    <h2>
-        Inlägg
-    </h2>
+    <h2>Inlägg</h2>
     <p id="message"></p>
+    <script src="script.js"></script>
 </body>
 </html>
